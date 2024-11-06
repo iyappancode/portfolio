@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Café Green</title>
+
+    <!-- favicon icon -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png" sizes="32x32"> 
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/globalStyles.css">
+</head>
+
+<body>
+    <div class="body_wrapper">
+        <header class="cg_header cg_header_transparent cg_menu_center cg_header_dark_color cg_restaurent_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <nav class="navbar navbar-expand-lg header_nav">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img src="assets/img/logo.png" alt="logo">
+                                <img src="assets/img/logo.png" alt="logo">
+                            </a>
+                            <button class="navbar-toggler cg_hamburger" type="button" data-toggle="collapse" data-target="#cg_header_menu" aria-expanded="false">
+                                <span class="bar_icon">
+                                    <span class="bar bar_1"></span>
+                                    <span class="bar bar_2"></span>
+                                    <span class="bar bar_3"></span>
+                                </span>
+                            </button>
+
+                            <div class="collapse navbar-collapse cg_header_menu" id="cg_header_menu">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About Us</a>
+                                    </li>  
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" onclick="openUrl(menuUrl)">Menu</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#gallery">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#says">Says</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#reachus">Reservation</a>
+                                    </li>                                                           
+                                </ul>
+                                <a class="cg_try_for_free cg_btn_right " href="subscription.html">Subscription</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="cg_restaurant_banner_area">
+            <div class="food_round_shap one" data-parallax='{"x": 100, "y": -100}'></div>
+            <div class="food_round_shap two wow zoomIn"></div>
+            <div class="food_round_shap three"></div>
+            <div class="food_round_shap four wow zoomIn" data-wow-delay="0.4s"></div>
+            <div class="food_round_shap five"></div>
+            <img class="food_round_shap six wow fadeInLeft" data-wow-delay="0.6s" src="images/restaurant/banner_desh2.png" alt="">
+            <div class="food_round_shap seven wow fadeInDown" data-wow-delay="0.6s"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="cg_restaurant_banner_content">
+                            <h6 class="wow fadeInUp" data-wow-delay="0.2s"><a href="#">Café & Green</a></h6>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.4s">Personalized Nutrition & <span>Perfectly Brewed Coffee</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.6s">Café & Green: Where Healthy Meets Your Happiness</p>
+                            <a href="#about" class="cg_dbtn restaurant_btn btn_icon wow fadeInUp" data-wow-delay="0.8s">More About Us<i class="fa fa-angle-double-down" aria-hidden="true"></i>                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 justify-content-end d-flex">
+                        <div class="desh_img">
+                            <div class="wow fadeIn" data-wow-delay="0.6s"><img data-parallax='{"x": 0, "y": -60}' src="assets/img/coffee_cup_new.png" alt=""></div>
+                            <!-- <div class="round wow zoomIn"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <div id="about"></div>     
+        <section class="cg_food_about_area">
+            <div class="container">
+                <div class="row cg_food_about_item aboutfrt-img">
+                    <div class="col-lg-6">
+                        <div class="cg_food_about_img">
+                            <div class="about_round one"></div>
+                            <div class="about_round two"></div>
+                            <div class="wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="assets/img/about1.png" alt="" data-parallax='{"x": 0, "y": 50}'>
+                            </div>                   
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 d-flex align-items-center">
+                        <div class="cg_food_about_content">
+                            <h2>Nutritionist-Tailored <br>Healthy Eating</h2>
+                            <p>“Crafting delicious & nourishing meals customized to meet your individual dietary requirements and objectives.”</p>
+                            <!-- <a href="#" class="food_btn">Get Starts</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="cg_food_about_area_two">
+            <div class="container">
+                <div class="row cg_food_about_item_two flex-row-reverse">
+                    <div class="col-lg-6">
+                        <div class="cg_food_about_img img_left">
+                            <div class="about_round one"></div>
+                            <div class="about_round two"></div>
+                            <div class="wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="assets/img/about2.png" alt="" class="img-fluid about-img1" data-parallax='{"x": 0, "y": 50}'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="cg_food_about_content">
+                            <h2>Perfectly Brewed Coffee</h2>
+                            <p>“Indulge in the art of expertly brewed coffee, meticulously crafted to deliver the perfect balance of aroma and flavor, awakening your senses with every sip.”</p>
+                            <!-- <a href="#" class="food_btn">Get Starts</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="menu"></div>
+        <section class="cg_food_service_area custom-food-menu">
+            <div class="container">
+                <div class="section_title_three text-center">
+                    <h2 class="f_title food_title wow fadeInUp">Enjoy your menu</h2>
+                    <!-- <p class="wow fadeInUp" data-wow-delay="0.3s">He legged it plastered cheeky loo what a plonker some dodgy chav a barney wellies, gutted mate quaint.</p> -->
+                </div>
+                <div class="menulist">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="food_service_item" data-wow-delay="0.6s">                            
+                            <div class="">
+                                <img src="assets/img/coffee-cup.png" alt="" class="menu-icons" > 
+                            </div>                           
+                                <div class="menuitems-list">
+                                    <h4>Hot <br>Drinks</h4>                           
+                                </div>                     
+                            </div>
+                        </div>    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="food_service_item" data-wow-delay="0.6s">                            
+                            <div class="">
+                                <img src="assets/img/dessert.png" alt="" class="menu-icons" > 
+                            </div>                           
+                                <div class="menuitems-list">
+                                    <h4>Deserts & Sweets</h4>                             
+                                </div>                     
+                            </div>
+                        </div>    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="food_service_item" data-wow-delay="0.6s">                            
+                            <div class="">
+                                <img src="assets/img/juice.png" alt="" class="menu-icons" > 
+                            </div>                           
+                                <div class="menuitems-list">
+                                    <h4>Fresh Fruit Juice</h4>                           
+                                </div>                     
+                            </div>
+                        </div>    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="food_service_item" data-wow-delay="0.6s">                            
+                            <div class="">
+                                <img src="assets/img/ice-cream.png" alt="" class="menu-icons" > 
+                            </div>                           
+                                <div class="menuitems-list">
+                                    <h4>Healthy <br>Eats</h4>                             
+                                </div>                     
+                            </div>
+                        </div>    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="food_service_item" data-wow-delay="0.6s">                            
+                            <div class="">
+                                <img src="assets/img/smoothie.png" alt="" class="menu-icons" > 
+                            </div>                           
+                                <div class="menuitems-list">
+                                    <h4>Fresh <br>Salads</h4>                                
+                                </div>                     
+                            </div>
+                        </div>  
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="food_service_item" data-wow-delay="0.6s">                            
+                            <div class="">
+                                <img src="assets/img/milkshake.png" alt="" class="menu-icons" > 
+                            </div>                           
+                                <div class="menuitems-list">
+                                    <h4>Classic Milkshakes</h4>                             
+                                </div>                     
+                            </div>
+                        </div>    
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <div id="gallery"></div>
+        <section class="gallry-main">
+            <div class="container-fluid p-0">
+                <div id="image-track" data-mouse-down-at="0" data-prev-percentage="-50">
+                    <div class="frame">
+                      <img class="image" src="assets/img/g1.jpg" draggable="false" />
+                    </div>
+                    <div class="frame">
+                        <img class="image" src="assets/img/g2.jpg" draggable="false" />
+                    </div>
+                    <div class="frame">
+                        <img class="image" src="assets/img/g3.jpg" draggable="false" />
+                    </div>
+                    <div class="frame">
+                        <img class="image" src="assets/img/g4.jpg" draggable="false" />
+                    </div>
+                    <div class="frame">
+                        <img class="image" src="assets/img/g5.jpg" draggable="false" />
+                    </div>
+                    <div class="frame">
+                        <img class="image" src="assets/img/g6.jpg" draggable="false" />
+                    </div>
+                    <div class="frame">
+                        <img class="image" src="assets/img/g7.jpg" draggable="false" />
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <div id="says"></div>
+        <section class="cg_feedback_wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <h2 class="text-center sec_title wow fadeInUp" data-wow-delay="0.2s">Hear from our awesome customers</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="cg_review_slider_wrap">
+                            <div class="cg_review_slider">
+                                <div class="cg_review_slider_item">
+                                    <div class="slider_inner">
+                                        <div class="img text-center">
+                                            <img src="assets/img/quote.png" alt="comma" class="img-fluid">
+                                        </div>
+                                        <p class="text-center">Cafe & Green impresses with its flavorful, health-conscious menu. The tropical salad was a delicious highlight, and the welcoming ambiance makes it a go-to spot for a satisfying vegetarian meal.</p>
+                                        <div class="rating_star text-center">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cg_review_slider_item">
+                                    <div class="slider_inner">
+                                        <div class="img text-center">
+                                            <img src="assets/img/quote.png" alt="comma" class="img-fluid">
+                                        </div>
+                                        <p class="text-center">Flavorful dishes and welcoming ambiance make it a go-to spot for a healthy and delicious dining experience.</p>
+                                        <div class="rating_star text-center">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cg_review_slider_item">
+                                    <div class="slider_inner">
+                                        <div class="img text-center">
+                                            <img src="assets/img/quote.png" alt="comma" class="img-fluid">
+                                        </div>
+                                        <p class="text-center">With a diverse, flavorful menu and a cozy atmosphere, it's the perfect spot for delicious and healthy dining.</p>
+                                        <div class="rating_star text-center">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div> 
+
+
+                                <div class="cg_review_slider_item">
+                                    <div class="slider_inner">
+                                        <div class="img text-center">
+                                            <img src="assets/img/quote.png" alt="comma" class="img-fluid">
+                                        </div>
+                                        <p class="text-center">First time visit yesterday. It was a very surprising place. Order - Cafe and green wrap, falafel wrap, kimchi mango sprout salad, peri peri fries, caramel latte, orange juice and americano. Everything was very healthy, very fresh and clean tasting.
+                                            It's a vegetarian place. If you are looking for masala and spice, this is not the place for you. The prices are extremely affordable for the quality and quantity they serve. Everyone there is really warm and helpful.
+                                            Also, on a side note, if there was a smell for the colour "green", this place is it. So very refreshing and bright.
+                                            Great place in all. Will definitely visit again.</p>
+                                        <div class="rating_star text-center">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cg_review_slider_item">
+                                    <div class="slider_inner">
+                                        <div class="img text-center">
+                                            <img src="assets/img/quote.png" alt="comma" class="img-fluid">
+                                        </div>
+                                        <p class="text-center">Ambience was very nice so quite with pleasant music. Food was also good I tried their wrap and hot chocolate, hot chocolate was must try.</p>
+                                        <div class="rating_star text-center">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="cg_review_slider_item">
+                                    <div class="slider_inner">
+                                        <div class="img text-center">
+                                            <img src="assets/img/quote.png" alt="comma" class="img-fluid">
+                                        </div>
+                                        <p class="text-center">Cafe & green is a best cafe in egmore area, please visit them they provide fresh foods and best cold beverages+ hot beverage and also healthy juice I hardly recommend u guys to visit them and enjoy your day.</p>
+                                        <div class="rating_star text-center">
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="cg_review_text_slider">
+                                <div class="cg_review_thumb_slider_item">
+                                    <div class="cg_text_slider_img text-center">
+                                        <img src="assets/img/say2.png" alt="reaview_img" class="img-fluid">
+                                    </div>
+                                    <div class="slider_text_content">
+                                        <h4 class="text-center name">Anju</h4>
+                                    </div>
+                                </div>
+                                <div class="cg_review_thumb_slider_item">
+                                    <div class="cg_text_slider_img text-center">
+                                        <img src="assets/img/say2.png" alt="reaview_img" class="img-fluid">
+                                    </div>
+                                    <div class="slider_text_content">
+                                        <h4 class="text-center name">Srinithi</h4>
+                                    </div>
+                                </div>
+                                <div class="cg_review_thumb_slider_item">
+                                    <div class="cg_text_slider_img text-center">
+                                        <img src="assets/img/say1.png" alt="reaview_img" class="img-fluid">
+                                    </div>
+                                    <div class="slider_text_content">
+                                        <h4 class="text-center name">Prashanth</h4>
+                                    </div>
+                                </div>
+                                
+                                 <div class="cg_review_thumb_slider_item">
+                                    <div class="cg_text_slider_img text-center">
+                                        <img src="assets/img/say2.png" alt="reaview_img" class="img-fluid">
+                                    </div>
+                                    <div class="slider_text_content">
+                                        <h4 class="text-center name">Aabharika Bidikar</h4>
+                                    </div>
+                                </div> 
+
+
+                                <div class="cg_review_thumb_slider_item">
+                                    <div class="cg_text_slider_img text-center">
+                                        <img src="assets/img/say1.png" alt="reaview_img" class="img-fluid">
+                                    </div>
+                                    <div class="slider_text_content">
+                                        <h4 class="text-center name">Santhosh Squady</h4>
+                                    </div>
+                                </div>
+
+
+                                <div class="cg_review_thumb_slider_item">
+                                    <div class="cg_text_slider_img text-center">
+                                        <img src="assets/img/say1.png" alt="reaview_img" class="img-fluid">
+                                    </div>
+                                    <div class="slider_text_content">
+                                        <h4 class="text-center name">Sorinchan Jajo</h4>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="reachus"></div>
+        <section class="cg_contact_form_wrap">
+            <div class="container">
+                <div class="row ct-form-content">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="">
+                            <h1 class="title wow fadeInUp" data-wow-delay="0.2s">"Connect with Us - Your Café & Green Experience Begins Here!"</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ct-form-map">                   
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pl-15">
+                        <section class="contact_map_wrap wow fadeInUp">
+                            <div class="contact_map" id="contact_map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.81750770874135!2d80.25781813077623!3d13.064922180850573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d36d84531b%3A0xb14da2451cb81f06!2sCafe%20%26%20Green!5e0!3m2!1sen!2sin!4v1698503611865!5m2!1sen!2sin"
+                                    allowfullscreen></iframe>
+                            </div>
+                            
+                        </section>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pr-15">
+                        <div class="cg_contact_form_group wow fadeInUp" data-wow-delay="0.6s">
+                            <form class="form cg_contact_form" id="form1" method="post" action="contact-form.php" class="cg_contact_form">
+                                       
+                                <div class="row">
+                                    <div class="col-sm-12 col-12 form-group">
+                                        <input type="text" class="form-control alphaonly resricts1" pattern="^[A-Za-z]+[A-Za-z ]*$" onkeydown="SpaceBlock()" placeholder="Your Name" id="name" name="name"  onfocus="this.placeholder=''" onblur="this.placeholder='Your Name'">
+                                    </div>
+                                    <div class="col-sm-12 col-12 form-group">
+                                        <input type="email" class="form-control resricts4" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" onkeydown="SpaceBlock()" placeholder="Your Email" id="email" name="email"  onfocus="this.placeholder=''" onblur="this.placeholder='Your Email'">
+                                    </div>
+                                    <div class="col-sm-12 col-12 form-group">
+                                        <input type="tel" class="form-control phonenum" minlength="7" maxlength="13" onkeydown="SpaceBlock()" placeholder="Phone Number" id="phone" name="phone" onfocus="this.placeholder=''" onblur="this.placeholder='Phone Number'">
+                                    </div>
+                                    <div class="col-sm-12 col-12 form-group">
+                                        <textarea class="form-control" placeholder="Message" onkeydown="SpaceBlock()" id="message" name="message"></textarea>
+                                    </div>
+                                    <div class="col-sm-12 col-12 form-group send_message">
+                                        <input class="cg_dbtn restaurant_btn btn_icon wow fadeInUp" type="submit" value="Send Message" name="send" onclick="validateForm()">
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-bg">
+            <div class="cg_footer_top">
+                <div class="container">
+                    <div class="cg_footer_top_inner">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="cg_footer_widget">
+                                    <div class="ft-logo">
+                                        <img src="assets/img/logo-white.png">
+                                    </div>
+                                    <p class="footer_para">Your go-to destination for sustainable, organic delights in a vibrant, eco-friendly setting. Join us in promoting mindful consumption and savoring the best of nature's flavors while nurturing the planet.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="cg_footer_widget pl_100">
+                                    <h4 class="cg_footer_title">Contact Us</h4>
+                                   <div class="ft-contact">
+                                        <div class="ft-contact-df">
+                                            <i class="fa fa-map-pin" aria-hidden="true"></i>
+                                            <a href="#">No. 53, Wellington Estate Society, Ethiraj Salai, Egmore, Chennai - 600008</a>
+                                        </div>
+                                        <div class="ft-contact-df">
+                                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                            <a href="mailto:cafeandgreen@gmail.com">cafeandgreen@gmail.com</a>
+                                        </div>
+                                        <div class="ft-contact-df">
+                                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                                            <a href="tel:+91 90428 88692">+91 90428 88692</a>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="cg_footer_widget pl_100 text-right">
+                                    <h4 class="cg_footer_title">Café Green</h4>
+                                    <ul class="cg_footer_menu">
+                                        <li><a href="#">Abouts</a></li>
+                                        <li><a href="#">Menu</a></li>
+                                        <li><a href="#">Gallery</a> </li>                                  
+                                        <li><a href="#">Says</a></li>
+                                        <li><a href="#">Reservation</a></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="cg_footer_bottom">
+                 <div class="container">
+                     <div class="cg_footer_bottom_inner">
+                         <div class="row d-flex align-items-center col_reverse">
+                             <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                                 <div class="cg_copy_right">
+                                     <p class="copy_right_text">&copy; Copyrights 2023 Café Green . All Rights Reserved.</p>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                 <div class="cg_footer_social">
+                                     <ul class="social_item text-right">
+                                         <li><a target="_blank" href="https://www.facebook.com/cafeandgreen"><i class="fa fa-facebook" aria-hidden="true"></i>                                         </a></li>
+                                         <li><a target="_blank" href="https://www.instagram.com/cafeandgreen/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </footer>
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window._be = window._be || {};
+    window.__be.id = "65cce023d4d5980007841e83";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+<!-- End of ChatBot code -->
+        <div class="whatsapp-icon">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=9042888692&text=Hi, Cafe and Green!">
+                <img src="assets/img/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+
+    </div>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    <script type="text/javascript">
+        const track = document.getElementById("image-track");
+
+        window.onmousedown = e => {
+        track.dataset.mouseDownAt = e.clientX;
+        }
+        
+        window.onmouseup = () => {
+        track.dataset.mouseDownAt = "0";
+        track.dataset.prevPercentage = track.dataset.percentage;
+        }
+        
+        window.onmousemove = e => {
+        if (track.dataset.mouseDownAt == "0") return;
+        const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+                maxDelta = window.innerWidth / 2;
+        
+        const percentage = (mouseDelta / maxDelta) * -100,
+                nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
+                nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, -15), -100);
+        
+        track.dataset.percentage = nextPercentage;
+        
+        track.animate({transform: `translate(${nextPercentage}%, -50%)`},{ duration: 1200, fill: "forwards" });
+        
+        let children = document.getElementById("image-track").childElementCount;
+        
+        for(const image of track.getElementsByClassName("image")) {
+            image.animate({
+            objectPosition: `${nextPercentage / children + (50+50/children)}% center`}, { duration: 1200, fill: "forwards"});
+        }
+        }
+    </script>
+    <script type="text/javascript">
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>   
+    <script type="text/javascript">
+        function validateForm() {
+            var firstNameInput = document.getElementById("yourname");
+            var emailInput = document.getElementById("email");            
+            var jobTitleInput = document.getElementById("title");
+            var companyNameInput = document.getElementById("companyname");
+
+            var firstNameValue = firstNameInput.value.trim();
+            var emailValue = emailInput.value.trim();           
+            var jobTitleValue = jobTitleInput.value.trim();
+            var companyNameValue = companyNameInput.value.trim();
+
+            var firstNameError = document.getElementById("first-name-error");
+            var emailError = document.getElementById("email-error");           
+            var jobTitleError = document.getElementById("job-title-error");
+            var companyNameError = document.getElementById("company-name-error");
+
+            var valid = true;
+
+            // Reset previous error messages and input borders
+            firstNameError.innerHTML = "";
+            emailError.innerHTML = "";           
+            jobTitleError.innerHTML = "";
+            companyNameError.innerHTML = "";
+
+            firstNameInput.style.border = "1px solid #ccc";
+            emailInput.style.border = "1px solid #ccc";
+           
+            jobTitleInput.style.border = "1px solid #ccc";
+            companyNameInput.style.border = "1px solid #ccc";
+            employeesInput.style.border = "1px solid #ccc";
+            phoneInput.style.border = "1px solid #ccc";
+
+            // Validate First Name
+            if (firstNameValue === "") {
+                firstNameError.innerHTML = "Your Name is required.";
+                firstNameInput.style.border = "1px solid red";
+                valid = false;
+            }
+          
+            // Validate Email
+            if (emailValue === "") {
+                emailError.innerHTML = "Email is required.";
+                emailInput.style.border = "1px solid red";
+                valid = false;
+            } else if (!isValidEmail(emailValue)) {
+                emailError.innerHTML = "Invalid email format.";
+                emailInput.style.border = "1px solid red";
+                valid = false;
+            }
+
+            
+
+            // Validate Job Title
+            if (jobTitleValue === "") {
+                jobTitleError.innerHTML = "Job Title is required.";
+                jobTitleInput.style.border = "1px solid red";
+                valid = false;
+            }
+
+            // Validate Company Name
+            if (companyNameValue === "") {
+                companyNameError.innerHTML = "Company Name is required.";
+                companyNameInput.style.border = "1px solid red";
+                valid = false;
+            }
+
+            // Validate Number of Employees
+            if (employeesValue === "") {
+                employeesError.innerHTML = "Number of Employees is required.";
+                employeesInput.style.border = "1px solid red";
+                valid = false;
+            } else if (!isValidNumber(employeesValue)) {
+                employeesError.innerHTML = "Invalid number format.";
+                employeesInput.style.border = "1px solid red";
+                valid = false;
+            }
+
+            // Validate Phone
+            if (phoneValue === "") {
+                phoneError.innerHTML = "Phone is required.";
+                phoneInput.style.border = "1px solid red";
+                valid = false;
+            } else if (!isValidPhone(phoneValue)) {
+                phoneError.innerHTML = "Invalid phone format.";
+                phoneInput.style.border = "1px solid red";
+                valid = false;
+            }
+
+            return valid;
+        }
+
+        function isValidEmail(email) {
+            var emailPattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return emailPattern.test(email);
+        }
+
+    </script>
+    <!-- <script type="text/javascript">
+      document.getElementById("yourname").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+      document.getElementById("email").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+      document.getElementById("title").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+      document.getElementById("companyname").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+      document.getElementById("employes").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+      document.getElementById("number").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+      document.getElementById("message").addEventListener('keydown', function(e) {
+        if (this.value.length === 0 && e.which === 32) e.preventDefault();
+      });
+    </script> -->
+    <script type="text/javascript">
+      jQuery(function() {
+        jQuery('.alphaonly').keydown(function(e) {
+          if (e.altKey) {
+            e.preventDefault();
+          } else {
+            var key = e.keyCode;
+            if (!((key == 8) || (key == 9) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+              e.preventDefault();
+            }
+          }
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        jQuery('.phonenum').on('input propertychange', function() {
+          CharLimit('.phonenum', 13);
+        });
+      });
+      jQuery(document).ready(function() {
+        jQuery('.maxlimit').on('input propertychange', function() {
+          CharLimit('.maxlimit', 750);
+        });
+      });
+      jQuery(document).ready(function() {
+        jQuery('.noemply').on('input propertychange', function() {
+          CharLimit('.noemply', 6);
+        });
+      });
+      jQuery(document).ready(function() {
+        jQuery('.resricts4').on('input propertychange', function() {
+          CharLimit('.resricts4', 40);
+        });
+      });
+     jQuery(document).ready(function() {
+        jQuery('.resricts2').on('input propertychange', function() {
+            CharLimit('.resricts2' , 40);
+        });
+     });
+      jQuery(document).ready(function() {
+        jQuery('.resricts3').on('input propertychange', function() {
+            CharLimit('.resricts3' , 40);
+        });
+     });
+      function CharLimit(input, maxChar) {
+        var len = jQuery(input).val().length;
+        if (len > maxChar) {
+          jQuery(input).val(jQuery(input).val().substring(0, maxChar));
+        }
+      }
+    </script>   
+   <script>
+          $(document).ready(function () {
+          $("form").submit(function (event) {              
+              var yourName = $("#name").val();
+              var emailAddress = $("#email").val();              
+              var phoneNumber = $("#phone").val();
+              var message = $("#message").val();
+
+              if (yourName === '' || emailAddress === '' || phoneNumber === '' || message === '') {
+                  Swal.fire({
+                      title: "Fields Empty",
+                      text: "Please check the missing fields",
+                      icon: "warning",
+                      confirmButtonText: "Ok",
+                  });
+              } else {
+                  Swal.fire({
+                      title: "Successfully Submitted!!",
+                      icon: "success",
+                      confirmButtonText: "Ok",
+                  });
+              }
+          });
+      });
+    </script>
+   <script>
+        var menuUrl = 'http://cafeandgreen.in/Menu.pdf';
+        function openUrl(url) {
+        window.open(url, '_blank');
+        }
+  </script>
+</body>
+</html>
